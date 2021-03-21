@@ -1,3 +1,4 @@
+<!--------------------------------- Bottom Navigation Bar --------------------------------->
 <div class="page no-navbar page-with-toolbar">
 	<div class="toolbar tabbar tabbar-labels toolbar-bottom-md custom-toolbar">
 		<div class="toolbar-inner">
@@ -23,6 +24,7 @@
 			</a>
 		</div>
 	</div>
+	<!------------------------------- End Bottom Navigation Bar ------------------------------->
 	<div class="page-content">
 		<div class="page-cover mb">
 			<img src="./img/bamboo_bg.jpg" alt="page-cover" class="object-fit">
@@ -37,8 +39,10 @@
 				
 				<h1 class="bambook-font">Bambook</h1>
 				
+				<!--If it isn't so hard let's try to use JS here to get the time of the day
+				and write 'Good <morning/afternoon/evening/night>' <name/username>-->
 				<p>
-					A social platform that allows you to exchage books for free with our growing community
+					Good evening Assaf! ready to explore new books? 
 				</p>
 				
 				<a href="/books_list/" class="col button button-big button-fill mt">start reading</a>
@@ -64,14 +68,14 @@
 						<div class="col">
 							<a href="/free_book_single/">
 								<div class="book-list-2">
-									<img src="../img/books/available/1.jpg" alt="y2" class="object-fit">
+									<img src="../img/books/available/2.jpg" alt="y2" class="object-fit">
 								</div>
 							</a>
 						</div>
 						<div class="col">
 							<a href="/free_book_single/">
 								<div class="book-list-2">
-									<img src="../img/books/available/1.jpg" alt="y3" class="object-fit">
+									<img src="../img/books/available/3.jpg" alt="y3" class="object-fit">
 								</div>
 							</a>
 						</div>
@@ -81,21 +85,21 @@
 						<div class="col">
 							<a href="/free_book_single/">
 								<div class="book-list-2">
-									<img src="../img/books/available/1.jpg" alt="y4" class="object-fit">
+									<img src="../img/books/available/4.jpg" alt="y4" class="object-fit">
 								</div>
 							</a>
 						</div>
 						<div class="col">
 							<a href="/free_book_single/">
 								<div class="book-list-2">
-									<img src="../img/books/available/1.jpg" alt="y5" class="object-fit">
+									<img src="../img/books/available/5.jpg" alt="y5" class="object-fit">
 								</div>
 							</a>
 						</div>
 						<div class="col">
 							<a href="/free_book_single/">
 								<div class="book-list-2">
-									<img src="../img/books/available/1.jpg" alt="y6" class="object-fit">
+									<img src="../img/books/available/6.jpg" alt="y6" class="object-fit">
 								</div>
 							</a>
 						</div>
@@ -109,78 +113,76 @@
 			
 				<div class="custom-tab padding-left padding-right">
 					<a href="#p" class="tab-link tab-link-active">Popular</a>
-					<a href="#pa" class="tab-link">Paid Books</a>
-					<a href="#f" class="tab-link">Free Books</a>
+					<a href="#pa" class="tab-link">Nearest</a> <!-- was paid books, don't change the ID -->
+					<a href="#f" class="tab-link">New</a> <!-- was free books, don't change the ID -->
 				</div>
 				
 				<div class="tabs-animated-wrap">
 					<div class="tabs">
+						<!--------------------- Popular Section --------------------->
 						<div id="p" class="tab tab-active">
 							<div class="block no-margin books-list">
-							
+						
 								<div class="book-list book-list-small display-flex">
 									<div class="book-img">
-										<img src="../img/books/available/1.jpg" alt="list8" class="object-fit">
+										<img src="../img/books/available/7.jpg" alt="list8" class="object-fit">
 									</div>
 									<div class="book-infos">
 										<div class="book-title">
-											<a href="/free_book_single/">Drawing the head and hands</a>
+											<a href="/free_book_single/">Cleaning Up Your Mental Mess</a>
 										</div>
-										<div class="book-author">Andrew Loomis</div>
+										<div class="book-author">Dr. Caroline Leaf</div>
 										<div class="book-rating">
 											<i class="material-icons">star</i>
 											<i class="material-icons">star</i>
 											<i class="material-icons">star</i>
 											<i class="material-icons">star</i>
-											<i class="material-icons">star</i>
 											<span>
-												4.6/5
+												4.2/5
 											</span>
 										</div>
 									</div>
 								</div>
 								<div class="book-list book-list-small display-flex">
 									<div class="book-img">
-										<img src="../img/books/available/1.jpg" alt="list9" class="object-fit">
+										<img src="../img/books/available/8.jpg" alt="list9" class="object-fit">
 									</div>
 									<div class="book-infos">
 										<div class="book-title">
-											<a href="/paid_book_single/">Crazy Rich Asians</a>
+											<a href="/paid_book_single/">Bridgerton: The Duke and I</a>
 										</div>
-										<div class="book-author">Kevin Kwan</div>
+										<div class="book-author">Julia Quinn</div>
 										<div class="book-rating">
 											<i class="material-icons">star</i>
 											<i class="material-icons">star</i>
 											<i class="material-icons">star</i>
 											<i class="material-icons">star</i>
-											<i class="material-icons">star</i>
 											<span>
-												4.6/5
+												3.9/5
 											</span>
 										</div>
 										<div class="book-price">
-											$12 USD
+											Popular!
 										</div>
 									</div>
 								</div>
 									
 								<div class="book-list book-list-small display-flex">
 									<div class="book-img">
-										<img src="../img/books/available/1.jpg" alt="list10" class="object-fit">
+										<img src="../img/books/available/9.jpg" alt="list10" class="object-fit">
 									</div>
 									<div class="book-infos">
 										<div class="book-title">
-											<a href="/free_book_single/">Wonder</a>
+											<a href="/free_book_single/">The Chimp Paradox</a>
 										</div>
-										<div class="book-author">R J Palacio</div>
+										<div class="book-author">Steve Peters</div>
 										<div class="book-rating">
 											<i class="material-icons">star</i>
 											<i class="material-icons">star</i>
 											<i class="material-icons">star</i>
 											<i class="material-icons">star</i>
-											<i class="material-icons">star</i>
 											<span>
-												4.6/5
+												4/5
 											</span>
 										</div>
 									</div>
@@ -188,125 +190,130 @@
 									
 							</div>
 						</div>
+						<!--------------------- End Popular Section --------------------->
+
+						<!----------------------- Nearest Section ----------------------->
 						<div id="pa" class="tab">
 							<div class="block no-margin books-list">
 								<div class="book-list book-list-small display-flex">
 									<div class="book-img">
-										<img src="./img/1.jpg" alt="list1" class="object-fit">
+										<img src="../img/books/available/2.jpg" alt="list1" class="object-fit">
 									</div>
 									<div class="book-infos">
 										<div class="book-title">
-											<a href="/paid_book_single/">Maxwell's Demons: Volume 1</a>
+											<a href="/paid_book_single/">A Game of Thrones: Book 1 of A Song of Ice and Fire</a>
 										</div>
-										<div class="book-author">Deniz Camp</div>
+										<div class="book-author">George R. R. Martin</div>
 										<div class="book-rating">
 											<i class="material-icons">star</i>
 											<i class="material-icons">star</i>
 											<i class="material-icons">star</i>
 											<i class="material-icons">star</i>
-											<i class="material-icons">star</i>
+											<i class="material-icons">star_half</i>
 											<span>
-												4.6/5
+												4.4/5
 											</span>
 										</div>
 										<div class="book-price">
-											$12 USD
+											500 meters away
 										</div>
 									</div>
 								</div>
 								
 								<div class="book-list book-list-small display-flex">
 									<div class="book-img">
-										<img src="./img/2.jpg" alt="list2" class="object-fit">
+										<img src="../img/books/available/4.jpg" alt="list2" class="object-fit">
 									</div>
 									<div class="book-infos">
 										<div class="book-title">
-											<a href="/paid_book_single/">Self-Reliance and Other Essays</a>
+											<a href="/paid_book_single/">The Silent Patient</a>
 										</div>
-										<div class="book-author">Ralph Waldo</div>
+										<div class="book-author">Alex Michaelides</div>
 										<div class="book-rating">
 											<i class="material-icons">star</i>
 											<i class="material-icons">star</i>
 											<i class="material-icons">star</i>
 											<i class="material-icons">star</i>
-											<i class="material-icons">star</i>
 											<span>
-												4.6/5
+												4.1/5
 											</span>
 										</div>
 										<div class="book-price">
-											$16 USD
+											900 meters away
 										</div>
 									</div>
 								</div>
 								
 								<div class="book-list book-list-small display-flex">
 									<div class="book-img">
-										<img src="./img/3.jpg" alt="list3" class="object-fit">
+										<img src="../img/books/available/6.jpg" alt="list3" class="object-fit">
 									</div>
 									<div class="book-infos">
 										<div class="book-title">
-											<a href="/paid_book_single/">Drawing the head and hands</a>
+											<a href="/paid_book_single/">The Midnight Library</a>
 										</div>
-										<div class="book-author">Andrew Loomis</div>
+										<div class="book-author">Matt Haig</div>
 										<div class="book-rating">
 											<i class="material-icons">star</i>
 											<i class="material-icons">star</i>
 											<i class="material-icons">star</i>
 											<i class="material-icons">star</i>
-											<i class="material-icons">star</i>
+											<i class="material-icons">star_half</i>
 											<span>
-												4.6/5
+												4.2/5
 											</span>
 										</div>
 										<div class="book-price">
-											$10 USD
+											1.5 kilometers away
 										</div>
 									</div>
 								</div>
 								
 							</div>
 						</div>
+						<!--------------------- End Nearest Section --------------------->
+
+						<!------------------------- New Section ------------------------->
 						<div id="f" class="tab">
 							<div class="block no-margin books-list">
 								<div class="book-list book-list-small display-flex">
 									<div class="book-img">
-										<img src="./img/8.jpg" alt="lista8" class="object-fit">
+										<img src="../img/books/available/3.jpg" alt="lista8" class="object-fit">
 									</div>
 									<div class="book-infos">
 										<div class="book-title">
-											<a href="/free_book_single/">Drawing the head and hands</a>
+											<a href="/free_book_single/">1984</a>
 										</div>
-										<div class="book-author">Andrew Loomis</div>
+										<div class="book-author">George Orwell</div>
 										<div class="book-rating">
 											<i class="material-icons">star</i>
 											<i class="material-icons">star</i>
 											<i class="material-icons">star</i>
 											<i class="material-icons">star</i>
-											<i class="material-icons">star</i>
+											<i class="material-icons">star_half</i>
 											<span>
-												4.6/5
+												4.2/5
 											</span>
 										</div>
 									</div>
 								</div>
 								<div class="book-list book-list-small display-flex">
 									<div class="book-img">
-										<img src="./img/9.jpg" alt="lista9" class="object-fit">
+										<img src="../img/books/available/5.jpg" alt="lista9" class="object-fit">
 									</div>
 									<div class="book-infos">
 										<div class="book-title">
-											<a href="/free_book_single/">Crazy Rich Asians</a>
+											<a href="/free_book_single/">The Laws of Human Nature</a>
 										</div>
-										<div class="book-author">Kevin Kwan</div>
+										<div class="book-author">Robert Greene</div>
 										<div class="book-rating">
 											<i class="material-icons">star</i>
 											<i class="material-icons">star</i>
 											<i class="material-icons">star</i>
 											<i class="material-icons">star</i>
-											<i class="material-icons">star</i>
+											<i class="material-icons">star_half</i>
 											<span>
-												4.6/5
+												4.4/5
 											</span>
 										</div>
 									</div>
@@ -314,27 +321,28 @@
 									
 								<div class="book-list book-list-small display-flex">
 									<div class="book-img">
-										<img src="./img/10.jpg" alt="lista10" class="object-fit">
+										<img src="../img/books/available/7.jpg" alt="lista10" class="object-fit">
 									</div>
 									<div class="book-infos">
 										<div class="book-title">
-											<a href="/free_book_single/">Wonder</a>
+											<a href="/free_book_single/">Cleaning Up Your Mental Mess</a>
 										</div>
-										<div class="book-author">R J Palacio</div>
+										<div class="book-author">Dr. Caroline Leaf</div>
 										<div class="book-rating">
 											<i class="material-icons">star</i>
 											<i class="material-icons">star</i>
 											<i class="material-icons">star</i>
 											<i class="material-icons">star</i>
-											<i class="material-icons">star</i>
+											<i class="material-icons">star_half</i>
 											<span>
-												4.6/5
+												4.5/5
 											</span>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
+						<!----------------------- End New Section ----------------------->
 					</div>
 				</div>
 				
