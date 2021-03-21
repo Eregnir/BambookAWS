@@ -806,6 +806,15 @@ h4{
 
 /* ---------------------- Idan ------------------ */
 
+.bold {
+	font-weight: bold;
+}
+
+.centered {
+	display: table;
+	margin: 0 auto;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
 
 .bambook-font {
