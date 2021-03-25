@@ -815,6 +815,14 @@ h4{
 	margin: 0 auto;
 }
 
+.large-para {
+	font-size: 18px;
+}
+
+.green-bg {
+	background-color: #60a917;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
 
 .bambook-font {
@@ -839,3 +847,7 @@ h4{
 		margin: 0 auto;
 	}
 }
+
+  
+  
+  
