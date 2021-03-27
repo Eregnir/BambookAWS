@@ -9,11 +9,11 @@
 		<meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:">
 		<title>Bambook</title>
 		<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700%7CMontserrat:400,500,600,700" rel="stylesheet">
-		<link rel="stylesheet" href="css/framework7.md.min.css">
-		<link rel="stylesheet" href="css/icons.css">
-		<link rel="stylesheet" href="css/app.css">
-		<link rel="apple-touch-icon" href="img/logo-square.png">
-		<link rel="icon" href="img/favicon.png">
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}">
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/icons.css') }}">
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/framework7.md.min.css') }}">
+		<link rel="apple-touch-icon" href="{{ url_for('static', filename='img/logo-square.png') }}">
+		<link rel="icon" href="{{ url_for('static', filename='img/favicon.png') }}">
 	</head>
 	<body class="color-theme-blue">
 		<div id="app">
@@ -57,7 +57,7 @@
 						<div class="block bambook">
 							<div class="book-img">
 								<div class="section-title display-flex justify-content-space-between align-items-center">
-									<img id="bambook-logo" src="../img/logo-v2.png" alt="1" class="object-fit">
+									<img id="bambook-logo" src="{{ url_for('static', filename='img/logo-v2.png') }}" alt="1" class="object-fit">
 								</div>
 							</div>
 						</div>
@@ -130,7 +130,8 @@
 												<div class="book-grid">
 													<div class="book-img">
 														<!--To fix the size of the image with media queries with the screen resolution is high-->
-														<img src="../img/books/available/1.jpg" alt="1" class="object-fit">
+														<img src="
+														{{ url_for('static', filename='img/books/available/1.jpg') }}" alt="1" class="object-fit">
 													</div>
 													<div class="book-infos">
 														<div class="book-title">
@@ -190,17 +191,9 @@
 			</div>
 			
 		</div>
-		<script src="js/framework7.min.js"></script>
-		<script src="js/routes.js"></script>
-		<script src="js/app.js"></script>
-		<!-- The core Firebase JS SDK is always required and must be listed first -->
-		<script src="/__/firebase/8.3.0/firebase-app.js"></script>
+		<script src="{{ url_for('static', filename='js/framework7.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/routes.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/app.js') }}"></script>
 
-		<!-- TODO: Add SDKs for Firebase products that you want to use
-			https://firebase.google.com/docs/web/setup#available-libraries -->
-		<script src="/__/firebase/8.3.0/firebase-analytics.js"></script>
-
-		<!-- Initialize Firebase -->
-		<script src="/__/firebase/init.js"></script>
 	</body>
 </html>

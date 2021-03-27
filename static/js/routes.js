@@ -3,19 +3,19 @@ var routes = [
   // Index page
   {
     path: '/',
-    url: './index.html',
+    url: '/',
     name: 'home',
   },
   // Home V2
   {
-    path: '/home_2/',
-    url: './pages/home_2.html',
+    path: '/home_2',
+    url: '/home_2',
     name: 'home_2',
   },
   // Books List
   {
     path: '/books_list/',
-    url: './pages/books_list.html',
+    url: '/books_list',
     name: 'books_list',
 	on: {
 		pageInit: function() {

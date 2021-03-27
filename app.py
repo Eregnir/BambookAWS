@@ -1,14 +1,15 @@
 from flask import Flask, render_template
-application = Flask(__name__)
+application = Flask(__name__, '/static')
 
 @application.route('/')
 def index():
-    return 'This is NOICE'
-
-@application.route('/users')
-def getUsers():
-    return 'get the users'
-
-@application.route('/poop')
-def getPoop():
     return render_template('index.html')
+
+@application.route('/home_2')
+def home2():
+    return render_template('pages/home_2.html')
+
+@application.route('/books_list')
+def books_list():
+    return render_template('pages/books_list.html')
+
