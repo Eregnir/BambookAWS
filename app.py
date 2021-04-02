@@ -14,5 +14,4 @@ def books_list():
     return render_template('pages/books_list.html')
 
 if __name__ == '__main__':
-    # Threaded option to enable multiple instances for multiple user access support
-    application.run(threaded=True, port=5000)
+    application.run()
