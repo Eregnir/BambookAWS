@@ -130,8 +130,7 @@
 												<div class="book-grid">
 													<div class="book-img">
 														<!--To fix the size of the image with media queries with the screen resolution is high-->
-														<img src="
-														{{ url_for('static', filename='img/books/available/1.jpg') }}" alt="1" class="object-fit">
+														<img src=" {{ url_for('static', filename='img/books/available/1.jpg') }}" alt="1" class="object-fit">
 													</div>
 													<div class="book-infos">
 														<div class="book-title">
@@ -147,7 +146,8 @@
 											<div class="swiper-slide">
 												<div class="book-grid">
 													<div class="book-img">
-														<img src="../img/books/available/2.jpg" alt="2" class="object-fit">
+														<img src="{{ url_for('static', filename='../img/books/available/2.jpg') }}"
+														alt="2" class="object-fit">
 													</div>
 													<div class="book-infos">
 														<div class="book-title">
@@ -163,7 +163,7 @@
 											<div class="swiper-slide">
 												<div class="book-grid">
 													<div class="book-img">
-														<img src="../img/books/available/3.jpg" alt="3" class="object-fit">
+														<img src="{{ url_for('static', filename='../img/books/available/3.jpg') }}" alt="3" class="object-fit">
 													</div>
 													<div class="book-infos">
 														<div class="book-title">
