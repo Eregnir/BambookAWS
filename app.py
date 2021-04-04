@@ -15,7 +15,7 @@ def books_list():
 
 @application.route('/pages')
 def pages():
-    return render_template('pages/pages.html')
+    return render_template('pages/profile.html')
 
 if __name__ == '__main__':
     application.run()
