@@ -13,7 +13,7 @@ def home2():
 def books_list():
     return render_template('pages/books_list.html')
 
-@application.route('/pages')
+@application.route('/profile')
 def pages():
     return render_template('pages/profile.html')
 
