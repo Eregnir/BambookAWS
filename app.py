@@ -7,7 +7,7 @@ def index():
 
 @application.route('/home_2')
 def home2():
-    return render_template('pages/home_2.html')
+    return render_template('pages/profile.html')
 
 @application.route('/books_list')
 def books_list():
