@@ -12,6 +12,12 @@ var routes = [
     url: '/home_2',
     name: 'home_2',
   },
+  // Cart
+  {
+    path: '/cart/',
+    url: '/cart',
+    name: 'cart',
+  },
   // Books List
   {
     path: '/books_list/',
@@ -57,28 +63,28 @@ var routes = [
     url: './pages/paid_book_single.html',
     name: 'paid_book_single',
   },
-  // Cart
-  {
-    path: '/cart/',
-    url: './pages/cart.html',
-    name: 'cart',
-  },
   // BookShelf
   {
     path: '/bookshelf/',
-    url: './pages/bookshelf.html',
+    url: '/bookshelf',
     name: 'bookshelf',
   },
   // Profile
   {
     path: '/profile/',
-    url: './pages/profile.html',
+    url: '/profile',
     name: 'profile',
+  },
+  // Pages
+  {
+    path: '/pages/',
+    url: '/pages',
+    name: 'pages',
   },
   // Reading
   {
     path: '/reading/',
-    url: './pages/reading.html',
+    url: '/reading',
     name: 'reading',
 	on: {
 		pageInit: function() {
@@ -101,14 +107,8 @@ var routes = [
   // Cover
   {
     path: '/cover/',
-    url: './pages/cover.html',
+    url: '/cover',
     name: 'cover',
-  },
-  // Pages
-  {
-    path: '/pages/',
-    url: './pages/pages.html',
-    name: 'pages',
   },
   // Default route (404 page). MUST BE THE LAST
   {
